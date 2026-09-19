@@ -1,0 +1,31 @@
+{
+  "slug": "retreatment-and-root-canal-filling-single-rooted",
+  "lang": "ro",
+  "title": "Retratament și obturație de canal monoradicular",
+  "synopsis": "Prezentare clinică a serviciului Retratament și obturație de canal monoradicular din Endodonție: indicații, izolare, instrumentar, materiale și îngrijire ulterioară. Tarif 550 RON.",
+  "paragraphs": [
+    "Retratament și obturație de canal monoradicular este un serviciu clinic precis, nu o vizită stomatologică nespecifică. Tariful publicat este 550 RON. Face parte din traseul „Tratamente cu microscop” din Endodonție. Înainte de orice manoperă, medicul confirmă diagnosticul, istoricul medical, medicația, alergiile și acuzele principale. Această evaluare arată dacă ședința este de diagnostic, prevenție, restaurare, chirurgie sau o combinație. Consimțământul informat include beneficiul așteptat, alternativele, durata și posibilitatea ca dinții vecini, gingia sau osul să necesite tratamente suplimentare.",
+    "Indicația pentru Retratament și obturație de canal monoradicular se stabilește după examen clinic, sondare și, la nevoie, radiografii retroalveolare, bite-wing sau CBCT. Se notează ocluzia, igiena, riscul carios și statusul parodontal, astfel încât manopera să nu fie izolată de restul planului. Infecția acută, diabetul necontrolat, anticoagularea sau sarcina modifică riscul și pot amâna sau adapta protocolul. Obiectivul este un rezultat previzibil, integrat într-un plan scris, nu o intervenție punctuală fără urmărire.",
+    "Secvența operatorie pentru Retratament și obturație de canal monoradicular începe cu izolarea câmpului și controlul durerii, apoi pașii tehnici proprii acestui serviciu. Instrumentarul obișnuit include oglinzi dentare și sondă, carpule anestezice și seringă, digă, matrici sectionale, compozit sau glassionomer, sistem de bonding, lampă LED, localizator de apex, ace NiTi rotative, irigare, gutapercă, microscop operator, microscop operator cu iluminare coaxială. Fiecare etapă se verifică: lungimea de lucru în endodonție, marginile în protetică, hemostaza în chirurgie, culoarea și ocluzia în restaurări. Mărirea, diga sau câmpul steril se folosesc ori de câte ori cresc siguranța și controlul umidității. Documentația poate include fotografii sau scanări utile laboratorului și controlului ulterior.",
+    "Materialele sunt alese în funcție de biologia zonei: compozite adezive sau glassionomer la coroană, cimente pe bază de silicat de calciu lângă pulpă, titan sau zirconiu în lucrările pe implant, membrane resorbabile sau neresorbabile în regenerare, și opțiuni adaptate vârstei la copii. Irigarea, aspirația și tehnica sterilă reduc încărcătura bacteriană. Când interviene laboratorul, se verifică relația ocluzală, culoarea și fișierele digitale înainte ca pacientul să plece, pentru a limita refacerile.",
+    "După Retratament și obturație de canal monoradicular, pacientul primește indicații scrise: analgezie, igienă în jurul zonei, textura alimentelor și semne de alarmă precum tumefacție extinsă, febră sau sângerare necontrolată. Un control confirmă vindecarea, ocluzia și igiena. Succesul pe termen lung depinde de mentenanță—igienizări profesionale, gutieră de bruxism dacă este cazul și reparații la timp. Clinica tratează acest serviciu ca pe o etapă controlată din stomatologia completă; tariful acoperă protocolul descris, exceptând manoperele suplimentare agreate explicit."
+  ],
+  "images": [
+    {
+      "src": "images/endo.jpg",
+      "alt": "Controlul lungimii de lucru la Retratament și obturație de canal monoradicular"
+    },
+    {
+      "src": "images/microscope.jpg",
+      "alt": "Vizualizare mărită în timpul Retratament și obturație de canal monoradicular"
+    }
+  ],
+  "icon": "../icons/services/retreatment-and-root-canal-filling-single-rooted.svg",
+  "categoryId": "endodontics",
+  "categoryName": "Endodonție",
+  "subcategoryId": "treatments-with-microscope",
+  "subcategoryName": "Tratamente cu microscop",
+  "price": 550,
+  "currency": "RON",
+  "wordCount": 399
+}

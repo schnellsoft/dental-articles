@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Prophylaxis</title>
+  <path d="M15 7c-3.4 0-6 2.8-6 6.6 0 2.8.4 5.2-1.5 9.2-.7 1.5.5 2.3 1.8 1.7 1.7-.7 3-1.8 5.7-1.8s4 1.1 5.7 1.8c1.3.6 2.5-.2 1.8-1.7-1.9-4-1.5-6.4-1.5-9.2 0-3.8-2.6-6.6-6-6.6Z"/>
+  <path d="M25 20.5 39.5 41"/>
+  <path d="M22.5 14.5h12.5a2.4 2.4 0 0 1 2.4 2.4v7.2a2.4 2.4 0 0 1-2.4 2.4H24"/>
+  <path d="M25.5 14.5v12M29.2 14.5v12M32.9 14.5v12"/>
+  <path d="M34 8l.8 2.1 2.1.8-2.1.8-.8 2.1-.8-2.1-2.1-.8 2.1-.8Z"/>
+</svg>

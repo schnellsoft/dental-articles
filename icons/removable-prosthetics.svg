@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Removable prosthetics</title>
+  <rect x="14" y="10" width="6.2" height="10" rx="1.5"/>
+  <rect x="21" y="7" width="6.2" height="11.5" rx="1.5"/>
+  <rect x="28" y="10" width="6.2" height="10" rx="1.5"/>
+  <path d="M14 22c.8 7.5 5.4 12.5 10 12.5s9.2-5 10-12.5"/>
+  <path d="M17.1 20.5v2M24.1 18.8v3.7M31.1 20.5v2"/>
+  <path d="M12.5 16.5c-4 0-5.8 4.2-5.8 7.2 0 2.6 1.5 4.8 4.2 4.8"/>
+  <path d="M24 37v-5.5M21.2 34.2 24 31.4 26.8 34.2"/>
+</svg>

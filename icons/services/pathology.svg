@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pathology</title>
+  <rect x="12" y="8" width="24" height="32" rx="2"/><path d="M18 16h12M18 22h12M18 28h8"/>
+  <text x="40" y="11" text-anchor="end" fill="currentColor" stroke="none" font-size="8" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700">Hx</text>
+</svg>

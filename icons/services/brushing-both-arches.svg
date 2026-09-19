@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Brushing, both arches</title>
+  <path d="M18 8c-3.6 0-6.2 3-6.2 7 0 3 .4 5.6-1.6 9.8-.7 1.6.5 2.4 1.8 1.8 1.5-.6 3.1-1.9 6-1.9s4.5 1.3 6 1.9c1.3.6 2.5-.2 1.8-1.8-2-4.2-1.6-6.8-1.6-9.8 0-4-2.6-7-6.2-7Z"/>
+  <path d="M26 22 38 42"/><path d="M23 16h13a2.2 2.2 0 0 1 2.2 2.2v6.6A2.2 2.2 0 0 1 36 27H25"/><path d="M26 16v11M30 16v11M34 16v11"/>
+  <text x="40" y="11" text-anchor="end" fill="currentColor" stroke="none" font-size="8" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700">2</text>
+</svg>

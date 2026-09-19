@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <title>Bibliotecă clinică stomatologică</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true" style="--g:url('../icons/consultations.svg')"></span>
+        <span class="brand-copy">
+          <strong id="brand-title">Bibliotecă clinică stomatologică</strong>
+          <span id="brand-tag">Manopere, instrumentar și protocoale</span>
+        </span>
+      </a>
+      <form class="search-field" id="search-form" role="search">
+        <label for="search-input">Caută în articole</label>
+        <input id="search-input" type="search" placeholder="Caută în articole" autocomplete="off" spellcheck="false">
+      </form>
+      <div class="lang-field">
+        <label for="lang-select">Limbă</label>
+        <select id="lang-select">
+          <option value="ro">Română</option>
+          <option value="bg">Български</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="app-shell">
+      <aside class="sidebar">
+        <details class="tree-panel" open>
+          <summary id="browse-label">Navigare</summary>
+          <nav id="tree-root" aria-label="Categorii"></nav>
+        </details>
+      </aside>
+      <main class="content" id="main" tabindex="-1">
+        <p class="status">…</p>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

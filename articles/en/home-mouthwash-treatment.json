@@ -1,0 +1,31 @@
+{
+  "slug": "home-mouthwash-treatment",
+  "lang": "en",
+  "title": "Home mouthwash treatment",
+  "synopsis": "Clinical overview of Home mouthwash treatment in Periodontology: indications, isolation, instruments, materials and aftercare. Listed fee 100 RON.",
+  "paragraphs": [
+    "Home mouthwash treatment is a defined clinical service in this practice, not a generic dental visit. The published fee is 100 RON. It is organised under Periodontology. Before any instrument is used, the dentist confirms the diagnosis, medical history, medications, allergies and the patient’s chief complaint. That intake determines whether the appointment is diagnostic, preventive, restorative, surgical or a combination of these. Informed consent covers expected benefit, alternatives, session length and the possibility that neighbouring teeth, gums or bone may need additional treatment.",
+    "Indication for Home mouthwash treatment is established after visual examination, probing and, when needed, periapical or bitewing radiographs or cone-beam CT. Occlusion, oral hygiene, caries risk and periodontal status are recorded so the procedure is not performed in isolation. If infection, uncontrolled diabetes, anticoagulation or pregnancy changes the risk profile, the sequence is adapted or delayed. The goal is a predictable result that can be integrated into a written treatment plan rather than a one-off intervention.",
+    "The operative sequence for Home mouthwash treatment starts with isolation and pain control, then the specific technical steps of this service. Typical instrumentation includes dental mirror and explorer, local anaesthesia carpules and syringe. Each step is verified: working length in endodontics, margins in prosthetics, haemostasis in surgery, shade and occlusion in restorative and aesthetic work. Magnification, rubber dam or surgical drapes are used whenever they improve safety and moisture control. Documentation includes photographs or scans when they help laboratory communication or follow-up.",
+    "Materials are selected for the biology of the site: adhesive composites or glass ionomer in the crown, calcium silicate cements near pulp, titanium or zirconia in implant prosthetics, resorbable or non-resorbable membranes in regeneration, and age-appropriate restorative options in children. Irrigation, suction and sterile technique reduce bacterial load. Where a laboratory is involved, bite records, shade tabs and digital files are checked before the patient leaves so remakes are minimised.",
+    "After Home mouthwash treatment, the patient receives written aftercare: analgesia, oral hygiene around the site, diet texture, and warning signs such as spreading swelling, fever or uncontrolled bleeding. A review visit confirms healing, occlusion and hygiene. Long-term success depends on maintenance—professional cleaning, night guards when bruxism is present, and timely repair of restorations. This clinic treats the service as one controlled step inside comprehensive dentistry, with the listed fee covering the described protocol unless additional procedures are explicitly agreed."
+  ],
+  "images": [
+    {
+      "src": "images/perio.jpg",
+      "alt": "Periodontal assessment during Home mouthwash treatment"
+    },
+    {
+      "src": "images/hygiene.jpg",
+      "alt": "Preventive instrumentation used around Home mouthwash treatment"
+    }
+  ],
+  "icon": "../icons/services/home-mouthwash-treatment.svg",
+  "categoryId": "periodontology",
+  "categoryName": "Periodontology",
+  "subcategoryId": null,
+  "subcategoryName": null,
+  "price": 100,
+  "currency": "RON",
+  "wordCount": 390
+}

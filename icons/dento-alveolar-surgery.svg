@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Dento-alveolar surgery</title>
+  <path d="M32 4c-2.7 0-4.8 2.2-4.8 5.2 0 2.2.3 4.1-1.1 7.2-.5 1.1.4 1.7 1.3 1.3 1.2-.5 2.3-1.5 4.6-1.5s3.4 1 4.6 1.5c.9.4 1.8-.2 1.3-1.3-1.4-3.1-1.1-5-1.1-7.2C36.8 6.2 34.7 4 32 4Z"/>
+  <circle cx="11" cy="38" r="4.2"/>
+  <circle cx="23" cy="38" r="4.2"/>
+  <path d="M13.8 34.6 21 20"/>
+  <path d="M20.2 34.6 21 20"/>
+  <circle cx="21" cy="20" r="2"/>
+  <path d="M21 20 29.5 9.2"/>
+  <path d="M21 20 34.5 13.2"/>
+</svg>

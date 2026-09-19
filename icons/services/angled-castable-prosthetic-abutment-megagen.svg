@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Angled/castable prosthetic abutment Megagen</title>
+  <path d="M18 22h8v16l-4 6-4-6Z"/><path d="M18 26h8M18 30h8M18 34h8"/><path d="M20 10 34 16v6L20 20Z"/>
+  <text x="40" y="11" text-anchor="end" fill="currentColor" stroke="none" font-size="8" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700">∠</text>
+</svg>
