@@ -293,6 +293,21 @@
     return renderHome();
   }
 
+  function searchHash(query) {
+    const q = query.trim();
+    return q ? `#/q/${encodeURIComponent(q)}` : "#/";
+  }
+
+  function syncSearchRoute(query) {
+    const next = searchHash(query);
+    if (location.hash === next) return;
+    history.replaceState(null, "", next);
+  }
+
+  function isTypingSearch() {
+    return document.activeElement === $("#search-input");
+  }
+
   function renderChrome() {
     const t = ui();
     document.documentElement.lang = state.lang;
@@ -302,21 +317,28 @@
     const search = $("#search-input");
     search.placeholder = t.search;
     search.setAttribute("aria-label", t.search);
-    if (state.route.name === "search") search.value = state.route.q || "";
-    else if (document.activeElement !== search) search.value = "";
+    if (!isTypingSearch()) {
+      search.value = state.route.name === "search" ? state.route.q || "" : "";
+    }
     $("#lang-select").value = state.lang;
     $("#lang-select").setAttribute("aria-label", t.language);
     $("#browse-label").textContent = t.browse;
     $("#tree-root").innerHTML = renderTree();
   }
 
-  async function paint() {
+  let paintSeq = 0;
+
+  async function paint({ focusMain = true, chrome = true } = {}) {
+    const seq = ++paintSeq;
     state.route = parseRoute();
-    renderChrome();
+    if (chrome) renderChrome();
+    const html = `<div class="content-inner">${await renderMain()}</div>`;
+    if (seq !== paintSeq) return;
     const main = $("#main");
-    main.innerHTML = `<p class="status">…</p>`;
-    main.innerHTML = `<div class="content-inner">${await renderMain()}</div>`;
-    main.focus({ preventScroll: true });
+    main.innerHTML = html;
+    if (focusMain && !isTypingSearch() && document.activeElement !== $("#lang-select")) {
+      main.focus({ preventScroll: true });
+    }
   }
 
   async function init() {
@@ -331,19 +353,20 @@
     $("#lang-select").addEventListener("change", (event) => {
       state.lang = event.target.value;
       localStorage.setItem("dental-lang", state.lang);
-      paint();
+      paint({ focusMain: false });
     });
     $("#search-form").addEventListener("submit", (event) => {
       event.preventDefault();
-      const q = $("#search-input").value.trim();
-      location.hash = q ? `#/q/${encodeURIComponent(q)}` : "#/";
+      const search = $("#search-input");
+      syncSearchRoute(search.value);
+      paint({ focusMain: false, chrome: false });
+      search.focus();
     });
     $("#search-input").addEventListener("input", (event) => {
-      const q = event.target.value.trim();
-      const next = q ? `#/q/${encodeURIComponent(q)}` : "#/";
-      if (location.hash !== next) location.hash = next;
+      syncSearchRoute(event.target.value);
+      paint({ focusMain: false, chrome: false });
     });
-    window.addEventListener("hashchange", paint);
+    window.addEventListener("hashchange", () => paint());
     await paint();
   }
 
